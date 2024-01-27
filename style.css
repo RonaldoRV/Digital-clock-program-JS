@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+
+}
+body{
+    margin: 0;
+    background-image: url(game_background_65-.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    background-color: red;
+
+}
